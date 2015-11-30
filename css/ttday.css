@@ -1,0 +1,41 @@
+#title-slide h1 {
+    color: #fff; 
+    text-shadow: 0 1px 1px #000
+}
+#title-slide .names {
+    margin-top: 40px;
+    border-top: 1px solid rgba(255,255,255, .4); 
+    padding-top: 30px;
+    font-size: 1.0em;
+    color: #fff; 
+    text-shadow: 0 1px 1px #000
+}
+
+#ttday blockquote {
+    padding: 30px 30px;
+}
+
+.row {
+    width: 100%;
+    overflow: auto;
+}
+.col {
+    float: left;
+}
+.col-1of2 {
+    width: 50%;
+}
+#ttday .image-no-border img {
+    border: 0;
+    box-shadow: none;
+    background: none;
+}
+#ttday .relative {
+    position: relative;
+}
+
+#ttday .tomato {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
