@@ -1,13 +1,22 @@
-#title-slide h1 {
-    color: #fff; 
+.m-a {
+  margin: 10px !important;
+}
+.p-t {
+  padding-top: 20px !important;
+}
+#ttday .photo-bg-slide h1,
+#ttday .photo-bg-slide h2,
+#ttday .photo-bg-slide p
+{
+    color: #fff;
     text-shadow: 0 1px 1px #000
 }
 #title-slide .names {
     margin-top: 40px;
-    border-top: 1px solid rgba(255,255,255, .4); 
+    border-top: 1px solid rgba(255,255,255, .4);
     padding-top: 30px;
     font-size: 1.0em;
-    color: #fff; 
+    color: #fff;
     text-shadow: 0 1px 1px #000
 }
 
@@ -22,9 +31,8 @@
 .col {
     float: left;
 }
-.col-1of2 {
-    width: 50%;
-}
+.col-1of2 { width: 50%; }
+.col-1of4 { width: 25%; }
 #ttday .image-no-border img {
     border: 0;
     box-shadow: none;
@@ -39,3 +47,5 @@
     top: 30%;
     left: 40%;
 }
+
+#ttday .inline-image { display:inline; border:0; box-shadow:none;vertical-align:middle; }
