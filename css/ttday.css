@@ -48,4 +48,4 @@
     left: 40%;
 }
 
-#ttday .inline-image { display:inline; border:0; box-shadow:none;vertical-align:middle; }
+#ttday .inline-image { display:inline; border:0; box-shadow:none;vertical-align:middle; background:none; }
