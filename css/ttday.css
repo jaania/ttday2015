@@ -49,3 +49,10 @@
 }
 
 #ttday .inline-image { display:inline; border:0; box-shadow:none;vertical-align:middle; background:none; }
+
+#ttday .diagram {
+    background: white;
+    border: none;
+    width: 100%;
+    box-shadow: none;
+}

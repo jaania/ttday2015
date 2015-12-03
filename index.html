@@ -402,7 +402,7 @@
 
         <section>
             <h2>Smart ristorante v1</h2>
-            <img style="background: white;" src="images/diagrams/step1.png"/>
+            <img class="diagram" src="images/diagrams/step1.png"/>
         </section>
 
         <section>
@@ -418,7 +418,7 @@
 
         <section>
             <h2>Smart ristorante v2</h2>
-            <img style="background: white;" src="images/diagrams/step2.png"/>
+            <img class="diagram"  src="images/diagrams/step2.png"/>
         </section>
 
         <section>
@@ -435,7 +435,7 @@
 
         <section>
             <h2>Smart ristorante v3</h2>
-            <img style="background: white;" src="images/diagrams/step3.png"/>
+            <img class="diagram"  src="images/diagrams/step3.png"/>
         </section>
 
         <section>
@@ -456,7 +456,7 @@
 
         <section>
             <h2>Refactoring</h2>
-            <img style="background: white;" src="images/diagrams/step3.png"/>
+            <img class="diagram"  src="images/diagrams/step3.png"/>
         </section>
 
         <section>
@@ -465,7 +465,7 @@
 
         <section>
             <h2>Dispatcher</h2>
-            <img style="background: white;" src="images/diagrams/refactoring1.png"/>
+            <img class="diagram" src="images/diagrams/refactoring1.png"/>
         </section>
 
         <section>
@@ -474,7 +474,7 @@
 
         <section>
             <h2>Stores</h2>
-            <img style="background: white;" src="images/diagrams/refactoring2.png"/>
+            <img class="diagram"  src="images/diagrams/refactoring2.png"/>
         </section>
 
         <section>
@@ -483,7 +483,7 @@
 
         <section>
             <h2>Actions</h2>
-            <img style="background: white;" src="images/diagrams/refactoring3.png"/>
+            <img class="diagram" src="images/diagrams/refactoring3.png"/>
         </section>
 
         <section>
@@ -511,7 +511,7 @@
         </section>
 
         <section>
-            <img style="background: white;" src="images/diagrams/refactoring4.png"/>
+            <img class="diagram" src="images/diagrams/refactoring4.png"/>
         </section>
 
         <section data-background-color="black">
@@ -646,25 +646,21 @@
 
         <section>
             <h2>How to describe this Virtual DOM?</h2>
+            <h1 class="fragment">React Components</h1>
         </section>
 
         <section>
-            <h2>How to describe this Virtual DOM?</h2>
-            <h1>React Components</h1>
-        </section>
-
-        <section>
-            <h2>Component Tree -> DOM Tree</h2>
+            <h2>Component Tree → DOM Tree</h2>
         </section>
 
         <section>
             <h2>React Components</h2>
-            <img src="images/react/jsx0.png" alt="">
+            <img style="width: 900px" src="images/react/jsx0.png" alt="">
         </section>
 
         <section>
             <h2>React Components</h2>
-            <img src="images/react/jsx.png" alt="">
+            <img style="width: 800px" src="images/react/jsx2.png" alt="">
         </section>
 
         <section data-background-color="black">
@@ -674,11 +670,18 @@
         <section>
             <h2>JSX</h2>
             <img src="images/react/jsx2.png" alt="">
+            <img style="transform: translateY(-206px);" src="images/react/jsx.png" alt="">
         </section>
 
         <section>
             <h2>It's not HTML</h2>
             <h2 class="fragment">Transpiled to JS before running in the browser</h2>
+        </section>
+
+        <section>
+            <h2>Transpilation</h2>
+            <img src="images/react/jsx2.png" alt="">
+            <img style="transform: translateY(-206px);" src="images/react/jsx.png" alt="">
         </section>
 
         <section>
@@ -691,7 +694,7 @@
 
         <section>
             <h2>Synthetic Cross-browser Events</h2>
-            <img src="images/react/reusable.png" alt="" />
+            <img style="width: 700px" src="images/react/events.png" alt="" />
         </section>
 
         <section>
@@ -700,7 +703,7 @@
 
         <section>
             <h2>Composable</h2>
-            <img src="images/react/composable.png" style="height: 500px;" alt="" />
+            <img src="images/react/composable.png" style="width: 600px" alt="" />
         </section>
 
         <section>
@@ -709,7 +712,7 @@
 
         <section>
             <h2>Reusable components with type-checking and default props</h2>
-            <img src="images/react/reusable.png" alt="" />
+            <img  style="width: 700px" src="images/react/reusable.png" alt="" />
         </section>
 
         <section>
@@ -721,15 +724,15 @@
         </section>
 
         <section data-background-color="black">
-            <h1>Still... why not AngularJS</h1>
+            <h1>Still... why is it better than other frameworks?</h1>
         </section>
 
         <section>
             <ul>
                 <li><b>Simplicity</b> - single concept of component vs controllers, directives, services, factories, providers...</li>
                 <li class="fragment"><b>Better reasoning</b> - uni-directional flow vs two-way data binding</li>
-                <li class="fragment"><b>Performance</b> - Virtual DOM vs Dirty-checking and templates</li>
-                <li class="fragment"><b>Scalability</b> - Used in production by Facebook, Instagram, Yahoo vs taken over by Google (Gmail? Search? YouTube? Forget it...)</li>
+                <li class="fragment"><b>Performance</b> - Virtual DOM vs Dirty-checking and static templates</li>
+                <li class="fragment"><b>Scalability</b> - Additionally... it's used in production by Facebook, Instagram, Yahoo for their key products.</li>
             </ul>
         </section>
 
@@ -762,13 +765,16 @@
     // Full list of configuration options available at:
     // https://github.com/hakimel/reveal.js#configuration
     Reveal.initialize({
+
+        width: 1400,
+
         controls: true,
         progress: true,
         history: true,
         center: true,
 
         transition: 'fade', // none/fade/slide/convex/concave/zoom
-				backgroundTransition: 'fade',
+        backgroundTransition: 'fade',
 
         // Optional reveal.js plugins
         dependencies: [
